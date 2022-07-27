@@ -4,5 +4,5 @@ pipelines:
     - step:
         caches:
          - maven
-         script:
+        script:
           - mvn -B verify
